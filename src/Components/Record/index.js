@@ -78,7 +78,7 @@ class Record extends Component {
           {this.renderTime(minSeconds)}
           <div>
             <button onClick={this.record}>Record</button>
-            <button onClick={this.clear}>Clear</button>
+            <button onClick={this.clear}>Reset</button>
             <button onClick={this.Stop}>{this.state.stop === true ? 'Continue' : 'Pause'} </button>
           </div>
         </div>
